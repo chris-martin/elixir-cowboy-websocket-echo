@@ -9,7 +9,7 @@ defmodule Echo.Mixfile do
   end
 
   def application do
-    [mod: {Echo, []},
+    [mod: { Echo, [] },
      applications: [:cowboy]]
   end
 end
